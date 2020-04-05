@@ -2,7 +2,7 @@ import sys
 import struct
 import os
 
-# This is a script that returns a list of keyframes that aom would likely place.
+# This is a script that returns a list of keyframes that aom would likely place. Port of aom's C code.
 # It requires an aom first-pass stats file as input. FFMPEG first-pass file is not OK. Default filename is stats.bin.
 # Script has been tested to have ~99% accuracy vs final aom encode.
 
