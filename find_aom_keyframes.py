@@ -58,7 +58,8 @@ def test_candidate_kf(dict_list, current_frame_index, frame_count_so_far):
     f = future_frame_dict
     
     BOOST_FACTOR = 12.5
-
+    
+    # For more documentation on the below, see https://aomedia.googlesource.com/aom/+/8ac928be918de0d502b7b492708d57ad4d817676/av1/encoder/pass2_strategy.c#1897
     MIN_INTRA_LEVEL = 0.25
     INTRA_VS_INTER_THRESH = 2.0
     VERY_LOW_INTER_THRESH = 0.05
