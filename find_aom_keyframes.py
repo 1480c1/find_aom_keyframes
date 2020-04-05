@@ -6,6 +6,8 @@ import os
 # It requires an aom first-pass stats file as input. FFMPEG first-pass file is not OK. Default filename is stats.bin.
 # Script has been tested to have ~99% accuracy vs final aom encode.
 
+# Elements related to parsing the stats file were written by MrSmilingWolf
+
 # Copyright (c) 2020 motbob
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
