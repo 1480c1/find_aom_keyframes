@@ -8,7 +8,8 @@ import os
 
 # Elements related to parsing the stats file were written by MrSmilingWolf
 
-# All of my contributions to this script are public domain. I retain no rights or control over distribution.
+# All of my contributions to this script are hereby public domain.
+# I retain no rights or control over distribution.
 
 # Fields meanings: <source root>/av1/encoder/firstpass.h
 fields = ['frame', 'weight', 'intra_error', 'frame_avg_wavelet_energy', 'coded_error', 'sr_coded_error', 'tr_coded_error'
